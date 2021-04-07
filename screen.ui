@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>603</width>
+    <height>534</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="ActiveCompany">
+    <property name="geometry">
+     <rect>
+      <x>486</x>
+      <y>0</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Empresa ativa&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(136, 138, 133);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>601</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>603</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuEmpresa">
+    <property name="title">
+     <string>Empresa</string>
+    </property>
+    <addaction name="actionAtivar_empresa"/>
+    <addaction name="actionCadastrar"/>
+    <addaction name="actionEditar"/>
+   </widget>
+   <widget class="QMenu" name="menuImportar">
+    <property name="title">
+     <string>Importar</string>
+    </property>
+    <addaction name="actionXML_Entrada_Compras"/>
+    <addaction name="actionCodigo_de_relacionamento"/>
+    <addaction name="actionRegistro_C170_SPED"/>
+    <addaction name="actionFator_de_convers_o"/>
+   </widget>
+   <widget class="QMenu" name="menuExportar">
+    <property name="title">
+     <string>Exportar</string>
+    </property>
+    <addaction name="actionCodigo_de_relacionamento_2"/>
+    <addaction name="actionSaldo_inicial"/>
+   </widget>
+   <widget class="QMenu" name="menuUteis">
+    <property name="title">
+     <string>Uteis</string>
+    </property>
+    <addaction name="actionAdicionar_0220_no_SPED"/>
+   </widget>
+   <addaction name="menuEmpresa"/>
+   <addaction name="menuImportar"/>
+   <addaction name="menuExportar"/>
+   <addaction name="menuUteis"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAtivar_empresa">
+   <property name="text">
+    <string>Ativar</string>
+   </property>
+  </action>
+  <action name="actionCadastrar">
+   <property name="text">
+    <string>Cadastrar</string>
+   </property>
+  </action>
+  <action name="actionXML_Entrada_Compras">
+   <property name="text">
+    <string>XML Entrada</string>
+   </property>
+  </action>
+  <action name="actionCodigo_de_relacionamento">
+   <property name="text">
+    <string>Codigo de relacionamento</string>
+   </property>
+  </action>
+  <action name="actionEditar">
+   <property name="text">
+    <string>Editar</string>
+   </property>
+  </action>
+  <action name="actionCodigo_de_relacionamento_2">
+   <property name="text">
+    <string>Codigo de relacionamento</string>
+   </property>
+  </action>
+  <action name="actionGerar_SPED_com_0220">
+   <property name="text">
+    <string>Adicionar registro 0220 no SPED</string>
+   </property>
+  </action>
+  <action name="actionAdicionar_0220_no_SPED">
+   <property name="text">
+    <string>Gerar SPED com registro 0220 </string>
+   </property>
+  </action>
+  <action name="actionRegistro_C170_SPED">
+   <property name="text">
+    <string>Registro C170 - SPED</string>
+   </property>
+  </action>
+  <action name="actionAdicionar_registro_0220_no_SPED">
+   <property name="text">
+    <string>Adicionar registro 0220 no SPED</string>
+   </property>
+  </action>
+  <action name="actionFator_de_convers_o">
+   <property name="text">
+    <string>Fator de conversão</string>
+   </property>
+  </action>
+  <action name="actionSaldo_inicial">
+   <property name="text">
+    <string>Saldo inicial</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
